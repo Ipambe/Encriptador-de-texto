@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@1,100;1,400&display=swap");
+:root {
+  --azul1: rgb(6, 6, 33);
+  --azul2: rgb(0, 12, 24);
+  --azul3: rgb(12, 87, 237);
+  --azul4: linear-gradient(190deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 25%, rgba(12,87,255,1) 100%);
+}
+
+* {
+  font-family: "Satisfy", cursive;
+  box-sizing: border-box;
+  color: var(--azul4);
+  font-family: "Albert Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html{
+  background-color: rgb(2,0,36);
+  background-image: var(--azul4);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+body {
+  height: 100%;
+  
+  /* display: flex; */
+}
+
+
+.textUnable{
+  position: absolute;
+}
+
+
